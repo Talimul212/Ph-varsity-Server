@@ -59,6 +59,10 @@ router.post(
   UserControllers.changeStatus,
 );
 
-router.get('/me', auth('student', 'faculty', 'admin'), UserControllers.getMe);
+router.get(
+  '/me',
+  auth('student', 'faculty', 'admin'),
+  UserControllers.getMeOne,
+);
 
 export const UserRoutes = router;
