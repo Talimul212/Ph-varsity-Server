@@ -1,7 +1,6 @@
 /* eslint-disable prettier/prettier */
 
-import { TBloodGroup } from './admin.interface';
-import { TGender } from './admin.interface';
+import { TBloodGroup, TGender } from './admin.interface';
 
 export const Gender: TGender[] = ['male', 'female', 'other'];
 
