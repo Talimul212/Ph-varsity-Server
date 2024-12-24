@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import app from './app';
 import mongoose from 'mongoose';
 import config from './app/config';
